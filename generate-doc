@@ -1,0 +1,3 @@
+#!/bin/bash
+cd resources/doc/admin && apidoc -o ../../../public/doc/admin;
+cd ../website && apidoc -o ../../../public/doc/website;
